@@ -6,3 +6,6 @@ function onkoKirjautunut() {
         document.getElementById('tervetulo_tekti').textContent += ' Eelis!';
     }
 }
+function kirjaudu(){
+    localStorage.setItem("nimi", "otto");
+}
