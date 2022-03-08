@@ -244,6 +244,11 @@ textarea {
 button,
 input { /* 1 */
   overflow: visible;
+  padding-right: 25px;
+  margin-right: 10px;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 2px;
 }
 
 /**
@@ -267,6 +272,11 @@ html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
+  background-color: #17a2b8;
+  color: #252525;
+  border-color: black;
+  border-width: 2.5px;
+  border-radius: 10px;
 }
 
 /**

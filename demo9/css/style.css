@@ -41,7 +41,7 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #555964;
      font-size: 14px;
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
@@ -131,6 +131,7 @@ ol {
      margin: 0px;
      padding: 0px;
      list-style: none;
+     /* color: #90a1a1; */
 }
 
 p {
@@ -284,10 +285,13 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #fff;
+     color: #625a5a;
      font-size: 16px;
      line-height: 20px;
      text-transform: uppercase;
+     border-width: 2px;
+     border-color: black;
+     border-radius: 30px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
@@ -320,7 +324,7 @@ button {
 
 .header {
      width: 100%;
-     background: transparent;
+     background: #cb101000;
      padding: 30px 30px;
 }
 
@@ -396,8 +400,8 @@ button {
 }
 
 .titlepage h2 {
-     font-size: 40px;
-     color: #3e3e3e;
+     font-size: 35px;
+     color: #625a5a;
      line-height: 35px;
      font-weight: bold;
      padding: 0;
@@ -617,9 +621,11 @@ button {
 
 .main_form {
      padding: 50px 50px;
-     border: #008df3 solid 1px;
+     border: #000000 solid 1px;
+     border-width: 2.5px;
      border-radius: 40px;
      margin: 0px 80px;
+     background-color: white;
 }
 
 .contact .main_form .form_contril {
@@ -651,7 +657,7 @@ button {
 .contact .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #000;
+     background-color: #17a2b8;
      color: #fff;
      padding: 13px 0px;
      margin: 0 auto;
@@ -659,6 +665,7 @@ button {
      margin-top: 30px;
      width: 100%;
      max-width: 190px;
+     border-radius: 15px;
 }
 
 .contact .main_form .send_btn:hover {
